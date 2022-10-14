@@ -1,0 +1,113 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#allElements {
+    position: relative;
+    background-color: #fce5cd;
+    width: 520px;
+    left: 50%;
+    transform: translate(-50%, 20px);
+    height: max-content;
+    border: 1px solid #ff9900;
+    border-radius: 10px;
+}
+
+img {
+    margin: 10px 0;
+    height: 32px;
+}
+
+h3 {
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #ff9900;
+}
+
+#tableInput {
+    margin: 30px 0;
+    border-spacing: 0px;
+}
+
+#tableInput th {
+    background-color: #efefef;
+    border-bottom: 1px solid;
+    font-size: 14px;
+    font-weight: normal; 
+    padding: 5px;
+    border: none;
+    width: max-content;
+}
+
+#tableJs {
+    margin: 50px 0;
+    width: 100%;
+}
+
+#tableGenerated {
+    margin: 10px 0;
+    background-color: none;
+    padding: 1px;
+    width: 500px;
+    text-align: center;
+    border-spacing: 5px;
+    font-weight: normal;
+}
+
+#tableGenerated #cellNumbers {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid green;
+}
+
+#tableGenerated #cellResult {
+    padding: 4px;
+    width: 30%;
+    font-family: Arial;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+input[type=number] {
+    text-align: center;
+    padding: 6px;
+    border: none;
+    outline: none;
+    width: max-content;
+}
+
+#buttons {
+    margin-top: 0px 0;
+    width: max-content;
+    text-align: center;
+
+}
+
+button:hover {opacity: 90%;}
+
+#generate,
+#deleteLastTable,
+#deleteAllTables {
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+#generate {background-color: #0d7acb;}
+#deleteLastTable {background-color: #999999;}
+#deleteAllTables {background-color: black;}
+
+#tableInput,
+#buttons,
+img,
+#tableGenerated {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}

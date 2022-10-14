@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Números da sorte</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="shortcut icon" href="icon-trevo-da-sorte.png">   
+</head>
+<body>
+    <div id="allElements">
+        <center>
+            <h3>
+                Gerador de números
+            </h3>
+        </center>
+        <div>
+            <img src="logo-megasena.png" height="32px">
+        </div>
+        <form>
+            <table id="tableInput">
+                <tr>
+                    <th>Quantidade de resultados</th>
+                    <td><input id="quantidadeResultados" type="number" min="1"></td>
+                </tr>
+            </table>
+        </form>
+        <div id="buttons">
+            <button id="generate">Gerar</button>
+            <button id="deleteLastTable">Apagar</button>
+            <button id="deleteAllTables">Apagar tudo</button>
+        </div>
+        <div id="tableJs">
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
